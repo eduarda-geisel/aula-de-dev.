@@ -1,0 +1,76 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* centro horizontal */
+    align-items: center; /* centro vertical */
+    height: 100vh;
+
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 400px;
+}
+
+h1 {
+    color: #2b6cb0;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 10px;
+}
+
+.btn {
+    background: #3182ce;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 2px 9px rgba(0,0,0,0.3);
+}
+
+.icone {
+    width: 30px;
+    transition: 0.3s;
+}
+/*"transition: 0.3s;" cria animação suave
+para o crescimento do icone*/
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top:20px;
+}
+.perfil {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    border: 4px solid white;
+}
+/*
+"width: 120px; height: 120px;" serve largura = w, e altura = h
+*/
+
+.btn:hover {
+    background: #1e4fa1;
+}
+
+.desc {
+    color: #555;
+}
+
+.icone:hover {
+    transform: scale(1.2);
+}
+/*Quando o mouse passar em cima do ícone,
+aumente ele em 20%*/
