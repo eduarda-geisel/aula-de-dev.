@@ -1,0 +1,50 @@
+.topbar {
+    display: flex; /* Ativa Flexbox */
+    justify-content: space-between; /* Separa logo e menu */
+    align-items: center; /* Alinha verticalmente */
+    padding: 12px 16px;
+    background: #2b6cb0;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+} /* Espaça as linkes */
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.texto {
+    width: wrap;
+    margin: auto center;
+}
+
+.btn {
+    display: block;
+    width: max-content;
+    margin: 8px auto 0;
+    padding: 10px 16px;
+    background: #2b6cb0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.cards {
+    display: flex;
+    gap: 16px; /* Quebra linha se faltar espaço */
+    flex-wrap: wrap;
+}
+
+.card {
+    /* cresce, encolhe, base 240px */
+    flex: 1 1 240px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,05);
+}

@@ -1,0 +1,18 @@
+.topbar {
+    display: flex; /* Ativa Flexbox */
+    justify-content: space-between; /* Separa logo e menu */
+    align-items: center; /* Alinha verticalmente */
+    padding: 12px 16px;
+    background: #2b6cb0;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+} /* Espaça as linkes */
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
