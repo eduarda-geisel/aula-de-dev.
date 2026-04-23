@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pse.css">
+
+</head>
+<body>
+    <form action="/enviar" method="POST">
+        <h1>Fale Conosco</h1>
+    
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="msg">Mensagem:</label>
+        <textarea id="msg" name="mensagem" rows="4" placeholder="Sua mensagem..." required></textarea>
+    
+        <button type="submit">Enviar Mensagem</button>
+    </form>
+
+        <!---------------------------------------
+        <label for="msg">Mensagem</label>
+        <textarea id="msg" name="mensagem" rows="4" placeholder="Sua mensagem..."></textarea>
+
+         <label for="assunto">Assunto</label>
+         <select id="assunto">
+            <option value="" disabled selected>Suporte Técnico</option>
+            <option value="orcamento">Orçamento</option>
+         </select>
+
+
+          <label>
+            <input type="checkbox" name="termos">Aceito os termos de uso
+          </label>
+
+          
+          <label><input type="radio" name="plano" checked> Básico</label>
+          <label><input type="radio" name="plano"> Pro</label>
+
+         
+         <input type="submit" value="Enviar"> 
+         ----------------------------------->
+
+</body>
+</html>
